@@ -5,6 +5,6 @@ def greet_user():
     now = datetime.now()
     print(f"\n👋 Hello {name}!")
     print("✅ This msage as printed from a Python script uploaded via VS Code to GitHub.")
-    print("🕒 Current date and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
+    print("🕒 Current dte and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
 
 greet_user()
